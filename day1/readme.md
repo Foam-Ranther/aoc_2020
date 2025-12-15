@@ -1,0 +1,3 @@
+- part1 : is about pair permutation. 
+- part 2 : 
+  - Want us to calculate the permutations with three elements.
