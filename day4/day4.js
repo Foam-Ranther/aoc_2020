@@ -87,6 +87,7 @@ const isValidPassport2 = (passport) => {
   for (let i = 0; i < validKeys.length; i++) {
     const key = validKeys[i]; 
     const isValidData =  dataValidationFns[key]; 
+
     if (!(inputKeys.includes(key) && isValidData(passportObj[key]))) return false;
   }
   return true; 

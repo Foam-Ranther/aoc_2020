@@ -1,0 +1,3 @@
+- have two variables start and end. 
+  - when it is B : do : start + ((start - end) / 2); 
+  - When it is A : do 
