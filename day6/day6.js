@@ -28,4 +28,4 @@ const part2 = (data) => {
   return commonYesAnswers.reduce((count, ele) => count + ele);
 };
 
-console.log(part2x(questionInput));
+console.log(part2(questionInput));
